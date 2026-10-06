@@ -1,0 +1,254 @@
+body{
+    background :linear-gradient(#1a2a4a,#ffffff,#d4af37)
+}
+.hell {
+background: red;
+height: 70px;
+width: 120px;
+padding: 10px;
+text-align: center;
+line-height: 70px;
+
+margin: 50px auto;
+animation: circle 5s linear infinite;
+
+}
+@keyframes circle{
+0%{
+    transform: rotate(0deg) translateX(120px)   rotate(0deg);
+    background: blue;
+    color: black;
+}
+100%{
+    transform: rotate(360deg) translateX(120px)  translateY(200px)     rotate(-360deg);
+    background: green;
+    color: white;
+}
+50%{
+    transform: rotate(180deg) translateX(120px) rotate(180deg);
+    background: goldenrod;
+      color: red;
+
+}
+75%{
+   transform: rotate(90deg) translateX(120px) rotate(-90deg);
+     background: orchid; 
+     color: blue;
+}
+25%{
+    transform: rotate(45deg) translateX(120px) rotate(45deg);
+    background: aqua;
+    color: orangered;
+}
+}
+.gell{
+    background: red;
+    width: 80px;
+    display: inline-block;
+    padding: 10px 20px;
+    animation: slide 4s ease-in-out infinite;
+}
+@keyframes slide{
+0%{
+transform: translateX(0);
+ background: purple ;
+}
+50%{
+    transform: translateX(500px);
+    background: blue;
+}
+}@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa+Ink:wght@400;700&family=Rakkas&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+}
+input{
+    
+    border: 2 solid #d4af37;
+    padding: 8px 12px;
+    border-radius: 5px;
+     background-color: #1a2a4a;
+     outline: none;
+     color: #ffffffff;
+     transition: 0.4s ease;
+     
+}
+input:valid{
+    border-color: #28a745;
+    color: #28a745;
+}
+input:invalid:not(:placeholder-shown) {
+    border-color: #dc3545;
+    color: #dc3545;
+    background-color: white;
+    
+}
+.not {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    animation: colors 4s infinite;
+}
+@keyframes colors{
+0%{
+    background-color: red;
+}
+33%{
+
+    background-color: blue;
+}
+40%{
+    background-color: rebeccapurple;
+}
+80%{
+    background-color: aqua;
+}
+100%{
+    background-color: #1a2a4a;
+}
+}
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    border: #1a2a4a;
+}
+h3{
+    color: #d4af37;
+    background: #1a2a4a;
+}
+select {
+    background: linear-gradient(red,blue);
+    color: #1a2a4a;
+}
+.a{
+    background-color: red;
+    
+}
+.b{
+    background-color: blue;
+}
+.c{
+    background-color: #d4af37;
+}
+.d{
+    background-color: aqua;
+}
+summary{
+background: #d4af37;
+color: #1a2a4a;
+padding: 15px 25px;
+border-radius: 10px;
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+list-style: none;
+text-align: center;
+margin: 10px 0;
+transition: 0.3s;
+}
+summary:hover{
+    background: #e63946;
+     color: white;
+     transform: scale(1.05);
+}
+.cell{
+background:rgb(0, 89, 255);
+}
+.top{
+  font-size: 28px;
+    color: #d4af37;
+    margin-bottom: 20px;
+    background: #1a2a4a;
+    width: 120px;
+}
+.hors{
+width: 80%;
+max-width: 600px;
+margin: 0 auto;
+border-collapse: collapse;
+background: #0f1a2e;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 0 20px rgba( 212,175,55,0.3);
+}
+.hors th{
+background: #d4af37;
+color: #1a2a4a;
+padding: 15px;
+font-size: 25px;
+margin: 100px;
+}
+.hors td{
+padding: 15px;
+border-bottom: 1px solid #2a3a5a;
+color: white;
+font-size: 25px;
+}
+.hors  tr:hover{
+background: #1a2a4a;
+transition: 0.3s ;
+}
+.hors tr:last-child td{
+    border-bottom: none;
+}
+.top{ width: 80px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1a2a4a;
+    color: #d4af37;
+    animation: slide 4s ease-in-out infinite;
+}
+@keyframes slide{
+0%{
+transform: translateX(0);
+ 
+}
+50%{
+    transform: translateX(500px);
+    
+}
+}
+.logo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-size: 24px;
+font-weight: bold;
+color: #3d2514;
+margin: 30px auto;
+}
+.logo i{
+    font-size: 180px;
+    color: #c7a17a;
+}
+.logo{
+    background-color: #3d2514;
+     width: 600px;
+     color: #28a745;
+}
+span{
+    font-size: 60px;
+}
+.harf{
+    background: #1a2a4a;
+    color: #d4af37;
+     width: 400px;
+}
+.hjk{
+    background: #1a2a4a;
+    color: #d4af37;
+    width: 250px;
+}
+.gty{
+    background: #1a2a4a;
+    color: #d4af37;
+    width: 400px;
+}
+audio{
+    opacity: 0.1;
+}
